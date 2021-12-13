@@ -1,22 +1,67 @@
 body {
-    background-color:  #f7dfd9;
-    font-family: "Avenir Next"; 
-    font-size: 16px;
-    line-height: 1.6em;
-    margin: 0;
+  background-color:  #f5dfca;
+  font-family: 'Clarkson',Helvetica,sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
   }
 
-  .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-  #mainHeader {
-    color:  #dc143c; 
+#mainHeader {
+  margin-top: 30px;
+  margin-left: 20px;
+  color:  #dc143c; 
+}
+
+a{
+  color: #dc143c; 
+  text-decoration: none;
+ }
+
+#secondHeader {  
+  margin-top: 150px;
+  margin-left: 20px;
+  color:  #dc143c; 
+
 }
 
 p {
-    margin-top: 100px;
+  margin-top: 30px;
+  margin-left: 20px;
   color: #dc143c; 
+  }
+
+#mainFooter{ 
+  white-space: nowrap;
+  margin-left: 75px;
+  margin-top: 100px;
 }
+
+.socialmedia {
+  color: #dc143c;
+  transition: color 0.2;
+  text-decoration: none;
+  margin: 0 15px;
+}
+  
+#social{
+  text-align: center;
+}
+
+.socialmedia:hover {
+  color: #830a22;
+}
+
+#mainFooter{ 
+  text-align: center;
+  position: relative;
+  height: 100px;
+  margin-top: 200px;
+  }
+  
+ 
