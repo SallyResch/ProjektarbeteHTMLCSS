@@ -1,0 +1,26 @@
+body {
+    background-color:  #f7dfd9;
+    font-family: "Avenir Next"; 
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+  #mainHeader {
+    color:  #dc143c; 
+   
+}
+
+p {
+    margin-top: 100px;
+  color: #dc143c; 
+}
+
+
+ 
