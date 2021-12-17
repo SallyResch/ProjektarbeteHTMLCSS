@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
-  background-color:  #f5dfca;
-  font-family: 'Clarkson',Helvetica,sans-serif;
+  background-color:  #eee;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   margin: 0;
@@ -15,11 +16,11 @@ body {
 #mainHeader {
   margin-top: 30px;
   margin-left: 20px;
-  color:  #dc143c;   
+  color:  #5656;   
 }
 
   a{
-    color: #dc143c; 
+    color: #5656; 
     text-decoration: none;
    }
 
@@ -27,28 +28,28 @@ body {
 #secondHeader {
   margin-top: 150px;
   margin-left: 20px;
-  color:  #dc143c; 
+  color:  #5656; 
 }
 
 p {
   margin-bottom: 50px;
   margin-left: 20px;
-  color: #dc143c; 
+  color: #5656; 
 }
 
 #name {
   text-align: center;
-  color:  #dc143c; 
+  color:  #5656; 
 }
 
 #E-mail{
   text-align: center;
-  color:  #dc143c; 
+  color:  #5656; 
 }
 
 #Other {
   text-align: center;
-  color:  #dc143c; 
+  color:  #5656; 
 }
 
 #Submit {
@@ -56,7 +57,7 @@ p {
 }
 
 .socialmedia {
-  color: #dc143c;
+  color: #5656;
   transition: color 0.2;
   text-decoration: none;
   margin: 0 15px;
@@ -68,7 +69,7 @@ p {
   
   
   .socialmedia:hover {
-  color: #830a22;
+  color: rgba(54, 65, 54, 0.4);
   }
   
   #mainFooter{ 
@@ -77,3 +78,7 @@ p {
   height: 100px;
   margin-top: 200px;
   }
+
+::placeholder{
+  font-family: 'Lato', sans-serif;
+}

@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
-background-color: #f5dfca;
-font-family: 'Clarkson',Helvetica,sans-serif; 
+background-color: #eee;
+font-family: 'Lato', sans-serif;
 font-size: 16px;
 line-height: 1.6em;
 margin: 0;
@@ -10,17 +11,56 @@ margin: 0;
 width: 80%;
 margin: auto;
 overflow: hidden;
+display: flex;
+justify-content: left;
+align-items: left;
+align-content: center;
+flex-wrap: column wrap;
+
 }
 
 #mainHeader {
 margin-top: 30px;
 margin-left: 20px;
-color: #dc143c;
-}
+color: #5656;
 
+
+}
+.text-fill {
+    background-color: #5656;
+    font-family: 'Lato', sans-serif;
+    font-size: 5vw;
+    text-transform: uppercase;
+    position: relative;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+
+}
+.text-fill::before{
+    content: attr(data-title);
+    background: linear-gradient(#000000, #797979);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    transition: 1s ease-in-out;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+.text-fill:hover::before{
+    width: 100%;
+}
 #mainNav {
 background-color: none;
 color: none;
+position: sticky;
+top:0;
 }
 
 #mainNav ul{
@@ -35,14 +75,14 @@ padding: 5px 10px;
 }
 
 #mainNav a {
-color: #dc143c;
+color: #5656;
 text-decoration: none;
 font-size: small;
 }
 
 p {
 margin-top: 300px;
-color: #dc143c; 
+color: #5656; 
 }
 
 ul {
@@ -50,7 +90,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #f5dfca;
+background-color: #eee;
 }
 
 li {
@@ -97,7 +137,7 @@ display: block;
 }
 
 .socialmedia {
-color: #dc143c;
+color: #5656;
 transition: color 0.2;
 text-decoration: none;
 margin: 0 15px;
@@ -109,7 +149,7 @@ text-align: center;
 
 
 .socialmedia:hover {
-color: #830a22;
+color: rgba(46, 56, 46, 0.4);
 }
 
 #mainFooter{ 
@@ -117,4 +157,14 @@ text-align: center;
 position: relative;
 height: 100px;
 margin-top: -200px;
+}
+
+#fixed {
+    position: fixed;
+    font-family: 'Lato', sans-serif;
+    bottom: 0;
+    right: 50px;
+    background: rgba(46, 56, 46, 0.4);
+    padding: 5px;
+
 }
