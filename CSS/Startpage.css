@@ -81,16 +81,11 @@ text-decoration: none;
 font-size: small;
 }
 
-p {
-margin-top: 300px;
-color: #5656; 
-}
-
 ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
-overflow: hidden;
+overflow:hidden;
 background-color: #eee;
 }
 
@@ -137,6 +132,13 @@ text-align: left;
 display: block;
 }
 
+p {
+margin-top: 1em;
+color: #5656; 
+margin-bottom: 50px;
+margin-left: 20px;
+}
+    
 .socialmedia {
 color: #5656;
 transition: color 0.2;

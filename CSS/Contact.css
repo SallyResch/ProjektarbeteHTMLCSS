@@ -43,11 +43,6 @@ body {
   font-size: small;
   }
   
-  p {
-  margin-top: 5em;
-  color: #5656; 
-  }
-  
   ul {
   list-style-type: none;
   margin: 0;
@@ -106,38 +101,57 @@ body {
 
 
 #secondHeader {
-  margin-top: 5em;
+  margin-top: 1em;
   margin-left: 20px;
   color:  #5656; 
 }
 
 p {
+  margin-top: 1em;
+  color: #5656; 
   margin-bottom: 50px;
   margin-left: 20px;
-  color: #5656; 
-}
+  }
 
 #name {
   text-align: center;
-  color:  #5656; 
+  color:  #5656;
+  margin-top:1em;
+  margin-bottom: 1em; 
+}
+
+#phone {
+  text-align: center;
+  color:  #5656;
+  margin-top:1em;
+  margin-bottom: 1em; 
 }
 
 #E-mail{
   text-align: center;
-  color:  #5656; 
+  color:  #5656;
+  margin-top:1em;
+  margin-bottom: 1em; 
 }
 
 #Checkbox{
   text-align: center;
+  color:#5656;
+  margin-top:1em;
+  margin-bottom: 1em;
 }
 
 #Other {
   text-align: center;
-  color:  #5656; 
+  color:  #5656;
+  margin-top:1em;
+  margin-bottom: 1em; 
 }
 
 #Submit {
   text-align: center;
+  margin-top:1em;
+  margin-bottom: 1em;
 }
 
 .socialmedia {
