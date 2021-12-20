@@ -113,6 +113,8 @@ a{
 
 #SallyProfil {
   border-radius: 50%;
+  max-width: 20%;
+  height: auto;
 }
 
 p {
