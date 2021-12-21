@@ -113,16 +113,16 @@ p {
   margin-left: 20px;
   }
 
-#GabriellaProfil {
-  border-radius: 50%;
-  max-width: 20%;
-  height: auto;
-}
+  #GabriellaProfil {
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+  }
 
-.graph { 
-  width: 400px;
-  margin: 0 auto;
-}
+  .graph { 
+    width: 400px;
+    margin: 0 auto;
+  }
 
 .graph h4 { 
   text-align: center;
