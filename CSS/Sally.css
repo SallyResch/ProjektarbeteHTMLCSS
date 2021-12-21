@@ -113,6 +113,80 @@ a{
   height: auto;
 }
 
+.graph { 
+  width: 400px;
+  margin: 0 auto;
+}
+
+.graph h4 { 
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.qualification { 
+height: 25px;
+min-width: 400px;
+margin: 0 auto 20px;
+font-size: 14px;
+color: black;
+padding: 0 0 0 10px; 
+position: relative;
+}
+
+.qualification:before { 
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 25px;
+  top: 0;
+  z-index: -2;
+  background: lightblue;
+  border-radius: 50px;
+}
+.qualification:after { 
+  content: '';
+  background: cornflowerblue;
+  height: 25px;
+  transition: 0.8s;
+  display:block;
+  width: 100%;
+  animation: animate 1 4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 50px;
+}
+
+.first:after { 
+  max-width:50%;
+}
+
+.second:after { 
+  max-width: 85%;
+}
+
+.third:after { 
+  max-width: 70%;
+}
+
+.fourth:after { 
+  max-width: 65%;
+}
+
+@keyframes animate {
+  0% {
+      width: 0;
+      border-radius: 50px;
+  }
+  100% { 
+      width: 100%;
+      border-radius: 50px;
+  }
+} 
+
 p {
   margin-top: 1em;
   color: #5656; 
@@ -146,7 +220,15 @@ p {
   position: relative;
   height: 100px;
   margin-top: 200px;
+  margin-left: -25px;
   }
+
+  #mainFooterSocial {
+    text-align: center;
+    position: relative;
+    height: 100px;
+    margin-top: -70px;
+    }
   
   #fixed {
     position: fixed;

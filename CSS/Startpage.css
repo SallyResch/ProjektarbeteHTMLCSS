@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body {
 background-color: #eee;
 font-family: 'Lato', sans-serif;
@@ -16,7 +17,6 @@ justify-content: left;
 align-items: left;
 align-content: center;
 flex-wrap: column wrap;
-
 }
 
 #mainHeader {
@@ -24,39 +24,38 @@ margin-top: 30px;
 margin-left: 20px;
 color: #5656;
 line-height: normal;
-
-
 }
+
 .text-fill {
-    background-color: #5656;
-    font-family: 'Lato', sans-serif;
-    font-size: 5vw;
-    text-transform: uppercase;
-    position: relative;
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+background-color: #5656;
+font-family: 'Lato', sans-serif;
+font-size: 5vw;
+text-transform: uppercase;
+position: relative;
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text;
+}
 
+.text-fill::before {
+content: attr(data-title);
+background: linear-gradient(#000000, #797979);
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width: 0;
+transition: 1s ease-in-out;
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text;
+}
 
+.text-fill:hover::before {
+width: 100%;
 }
-.text-fill::before{
-    content: attr(data-title);
-    background: linear-gradient(#000000, #797979);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 0;
-    transition: 1s ease-in-out;
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    
-}
-.text-fill:hover::before{
-    width: 100%;
-}
+
 #mainNav {
 background-color: none;
 color: none;
@@ -64,13 +63,13 @@ position: sticky;
 top:0;
 }
 
-#mainNav ul{
+#mainNav ul {
 padding: 0;
 margin: 0;
 list-style: none;
 }
 
-#mainNav li{
+#mainNav li {
 display: inline;
 padding: 5px 10px;
 }
@@ -146,7 +145,7 @@ text-decoration: none;
 margin: 0 15px;
 }
 
-#social{
+#social {
 text-align: center;
 }
 
@@ -155,7 +154,7 @@ text-align: center;
 color: rgba(46, 56, 46, 0.4);
 }
 
-#mainFooter{ 
+#mainFooter { 
 text-align: center;
 position: relative;
 height: 100px;
@@ -163,23 +162,17 @@ margin-top: 200px;
 }
 
 #mainFooterSocial {
-
-    text-align: center;
-    
-    position: relative;
-    
-    height: 100px;
-    
-    margin-top: -70px;
-    
-    }
+text-align: center;
+position: relative;
+height: 100px;
+margin-top: -70px;
+}
 
 #fixed {
-    position: fixed;
-    font-family: 'Lato', sans-serif;
-    bottom: 0;
-    right: 50px;
-    background: rgba(46, 56, 46, 0.4);
-    padding: 5px;
-
+position: fixed;
+font-family: 'Lato', sans-serif;
+bottom: 0;
+right: 50px;
+background: rgba(46, 56, 46, 0.4);
+padding: 5px;
 }

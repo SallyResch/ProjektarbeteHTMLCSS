@@ -104,7 +104,6 @@ a{
   margin-top: 1em;
   margin-left: 20px;
   color:  #5656; 
-
 }
 
 p {
@@ -220,7 +219,15 @@ position: relative;
   position: relative;
   height: 100px;
   margin-top: 200px;
+  margin-left: -25px;
   }
+
+  #mainFooterSocial {
+    text-align: center;
+    position: relative;
+    height: 100px;
+    margin-top: -70px;
+    }
   
   #fixed {
     position: fixed;
