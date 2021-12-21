@@ -162,6 +162,18 @@ height: 100px;
 margin-top: 200px;
 }
 
+#mainFooterSocial {
+
+    text-align: center;
+    
+    position: relative;
+    
+    height: 100px;
+    
+    margin-top: -70px;
+    
+    }
+
 #fixed {
     position: fixed;
     font-family: 'Lato', sans-serif;
