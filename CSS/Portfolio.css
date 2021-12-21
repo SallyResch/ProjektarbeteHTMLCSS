@@ -153,6 +153,15 @@ p {
     margin-top: -70px;
     }
 
+    #fixed {
+      position: fixed;
+      font-family: 'Lato', sans-serif;
+      bottom: 0;
+      right: 50px;
+      background: rgba(46, 56, 46, 0.4);
+      padding: 5px;
+    }
+
   * {
     box-sizing: border-box;
   }
@@ -181,14 +190,3 @@ p {
       width: 40%;
     }
   }
-
-  #fixed {
-    position: fixed;
-    font-family: 'Lato', sans-serif;
-    bottom: 0;
-    right: 50px;
-    background: rgba(46, 56, 46, 0.4);
-    padding: 5px;
-  }
-
-
