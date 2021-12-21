@@ -168,6 +168,11 @@ height: 100px;
 margin-top: -70px;
 }
 
+a {
+  color: #5656;
+  text-decoration: none;
+}
+
 #fixed {
 position: fixed;
 font-family: 'Lato', sans-serif;
