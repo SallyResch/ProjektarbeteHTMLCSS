@@ -16,7 +16,8 @@ body {
 #mainHeader {
   margin-top: 30px;
   margin-left: 20px;
-  color:  #5656; 
+  color:  #5656;
+  text-transform: uppercase; 
 }
 
 #mainNav {
