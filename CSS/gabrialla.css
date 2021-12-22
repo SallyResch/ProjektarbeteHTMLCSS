@@ -114,19 +114,17 @@ p {
  margin-left: 20px;
   }
 
-  #PicAndGraph{
-    display: flex;
-    justify-content: space-evenly;
-    color: #5656; 
-
-  }
-
   #GabriellaProfil {
     border-radius: 40%;
     max-width: 30%;
     height: auto;
     float: left;
+  }
 
+  #PicAndGraph{
+    display: flex;
+    justify-content: space-evenly;
+    color: #5656; 
   }
 
   .graph { 
