@@ -180,11 +180,11 @@ position: relative;
 }
 
 .third:after { 
-  max-width: 70%;
+  max-width: 10%;
 }
 
 .fourth:after { 
-  max-width: 65%;
+  max-width: 25%;
 }
 
 @keyframes animate {
