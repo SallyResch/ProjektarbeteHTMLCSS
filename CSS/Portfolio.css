@@ -159,6 +159,10 @@ a{
       padding: 5px;
     }
 
+    #us{
+    color: #eee;
+     }
+
   * {
     box-sizing: border-box;
   }
