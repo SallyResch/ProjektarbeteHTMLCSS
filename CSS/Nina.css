@@ -148,12 +148,12 @@ position: relative;
   height: 25px;
   top: 0;
   z-index: -2;
-  background: lightblue;
+  background: eee;
   border-radius: 50px;
 }
 .qualification:after { 
   content: '';
-  background: cornflowerblue;
+  background: #5656;
   height: 25px;
   transition: 0.8s;
   display:block;
