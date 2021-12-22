@@ -176,6 +176,14 @@ position: relative;
   max-width: 65%;
 }
 
+.fifth:after {
+  max-width: 85%;
+}
+
+.sixth:after {
+  max-width: 70%;
+}
+
 @keyframes animate {
   0% {
       width: 0;
