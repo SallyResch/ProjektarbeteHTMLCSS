@@ -105,18 +105,13 @@ a{
 #secondHeader {
   margin-top: 1em;
   margin-left: 20px;
-  color:  #5656; 
+  color: rgba(25, 29, 25, 0.459); 
 }
 
-p {
-  margin-top: 1em;
-  color: #5656; 
-  margin-bottom: 50px;
-  margin-left: 20px;
-  }
  
 #works {
-  margin-left: 20px;
+  color: rgba(25, 29, 25, 0.459); 
+  margin-top: -0.4em;
   display: flex;
   align-content: space-between;
   flex-direction:column;

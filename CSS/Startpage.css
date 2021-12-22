@@ -57,6 +57,7 @@ width: 100%;
 }
 
 #mainNav {
+margin-top: -1.em;
 background-color: none;
 color: none;
 position: sticky;
@@ -131,9 +132,17 @@ text-align: left;
 display: block;
 }
 
+
+h4 {
+  width: 80%;
+  margin-left: 1.2em;
+  color: rgba(25, 29, 25, 0.459); 
+  margin-bottom: -5px;
+
+}
+
 p {
-margin-top: 1em;
-color: #5656; 
+color: rgba(25, 29, 25, 0.459); 
 margin-bottom: 50px;
 margin-left: 20px;
 }
@@ -155,6 +164,7 @@ color: rgba(46, 56, 46, 0.4);
 }
 
 #mainFooter { 
+color: #5656;
 text-align: center;
 position: relative;
 height: 100px;
