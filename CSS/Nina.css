@@ -158,7 +158,7 @@ position: relative;
 }
 .qualification:after { 
   content: '';
-  background: #5656;
+  background: linear-gradient(to right, rgba(255,0,0,0), #5656);
   height: 25px;
   transition: 0.8s;
   display:block;
@@ -180,11 +180,11 @@ position: relative;
 }
 
 .third:after { 
-  max-width: 10%;
+  max-width: 25%;
 }
 
 .fourth:after { 
-  max-width: 25%;
+  max-width: 35%;
 }
 
 @keyframes animate {
