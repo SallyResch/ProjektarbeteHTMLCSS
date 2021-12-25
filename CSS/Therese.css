@@ -20,6 +20,14 @@ body {
   text-transform: uppercase; 
 }
 
+#ThereseProfil {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  
+  overflow: hidden;
+}
+
 #mainNav {
   background-color: none;
   color: none;
@@ -111,22 +119,19 @@ p {
   margin-top: 1em;
   color: #5656; 
   margin-bottom: 50px;
-  margin-left: 20px;
+  margin-left: 50px;
   }
 
-#ThereseProfil {
-  border-radius: 50%;
-  max-width: 20%;
-  height: auto;
-}
 
 .graph { 
   width: 400px;
   margin: 0 auto;
+  text-align: left;
+
 }
 
 .graph h4 { 
-  text-align: center;
+  text-align:center;
   text-transform: uppercase;
   margin-top: 40px;
 }
@@ -149,12 +154,12 @@ position: relative;
   height: 25px;
   top: 0;
   z-index: -2;
-  background: lightblue;
+  background:lightgray;
   border-radius: 50px;
 }
 .qualification:after { 
   content: '';
-  background: cornflowerblue;
+  background: #5656;
   height: 25px;
   transition: 0.8s;
   display:block;
@@ -180,7 +185,7 @@ position: relative;
 }
 
 .fourth:after { 
-  max-width: 65%;
+  max-width: 90%;
 }
 
 @keyframes animate {
@@ -213,7 +218,7 @@ position: relative;
 }
 
 .socialmedia:hover {
-  color: rgba(44, 53, 44, 0.4);
+  color: rgba(42, 5, 42, 0.4);
 }
 
 #mainFooter{ 
@@ -238,7 +243,5 @@ position: relative;
     right: 50px;
     background: rgba(46, 56, 46, 0.4);
     padding: 5px;
+
 }
-#us{
-  color: #eee;
-   }
