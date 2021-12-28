@@ -119,23 +119,16 @@ p {
     max-width: 30%;
     height: auto;
     float: left;
-  }
-
-  #PicAndGraph{
-    display: flex;
-    justify-content: space-evenly;
-    color: #5656; 
+    margin-bottom: 3em;
   }
 
   .graph { 
     width: 400px;
     margin: 0 auto;
-    float: right;
-    text-align: right;
+    text-align: left;
   }
 
 .graph h4 { 
-  text-align: right;
   text-transform: uppercase;
   margin-top: 40px;
   margin-right: -15px;
@@ -172,7 +165,7 @@ position: relative;
   animation: animate 1 4s;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: -1;
   border-radius: 50px;
 }
@@ -183,17 +176,17 @@ position: relative;
 }
 
 .second:after { 
-  max-width: 85%;
-  margin-right: -15px;
-}
-
-.third:after { 
   max-width: 70%;
   margin-right: -15px;
 }
 
+.third:after { 
+  max-width: 40%;
+  margin-right: -15px;
+}
+
 .fourth:after { 
-  max-width: 65%;
+  max-width: 20%;
   margin-right: -15px;
 }
 
