@@ -23,9 +23,9 @@ body {
 
 #mainNav {
   margin-top: -1em;
-
   position: sticky;
   top:0;
+  z-index: 1;
   }
   
 #mainNav ul{

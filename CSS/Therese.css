@@ -32,6 +32,7 @@ body {
 #mainNav {
   position: sticky;
   top:0;
+  z-index: 1;
   }
   
   #mainNav ul{
@@ -185,6 +186,10 @@ position: relative;
 
 .fourth:after { 
   max-width: 90%;
+}
+
+.fifth:after { 
+  max-width: 45%;
 }
 
 @keyframes animate {
