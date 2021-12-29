@@ -15,7 +15,6 @@ overflow: hidden;
 display: flex;
 justify-content: left;
 align-content: center;
-flex-wrap: column;
 }
 
 #mainHeader {
