@@ -98,7 +98,7 @@ body {
   text-align: left;
   }
   
-  .dropdown-content a:hover {background-color: rgbd(0,0,0,0.2);}
+  .dropdown-content a:hover {background-color: rgba(199, 199, 199, 0.2);}
   
   .dropdown:hover .dropdown-content {
   display: block;
@@ -209,7 +209,7 @@ position: relative;
 
 .socialmedia {
   color: #5656;
-  transition: color 0.2;
+  transition: 0.2;
   text-decoration: none;
   margin: 0 15px;
 }
