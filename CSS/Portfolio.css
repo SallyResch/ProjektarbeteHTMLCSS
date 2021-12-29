@@ -24,8 +24,6 @@ body {
 }
 
 #mainNav {
-  background-color: none;
-  color: none;
   position: sticky;
   top:0;
   }
