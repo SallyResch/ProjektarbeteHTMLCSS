@@ -14,9 +14,8 @@ margin: auto;
 overflow: hidden;
 display: flex;
 justify-content: left;
-align-items: left;
 align-content: center;
-flex-wrap: column wrap;
+flex-wrap: column;
 }
 
 #mainHeader {
@@ -57,7 +56,7 @@ width: 100%;
 }
 
 #mainNav {
-margin-top: -1.em;
+margin-top: 0em;
 position: sticky;
 top:0;
 }
